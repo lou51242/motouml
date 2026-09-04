@@ -1,0 +1,7 @@
+<map id="Moteur" name="Moteur">
+<area shape="rect" id="Node000001" title="Classe de base représentant un moteur générique." alt="" coords="71,5,139,31"/>
+<area shape="rect" id="Node000002" href="$classElectrique.html" title="Représente un moteur électrique." alt="" coords="5,79,92,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="89,43,60,80,56,77,85,40"/>
+<area shape="rect" id="Node000003" href="$classThermique.html" title="Représente un moteur à combustion thermique." alt="" coords="116,79,208,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="125,40,155,77,151,80,120,43"/>
+</map>

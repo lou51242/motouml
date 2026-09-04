@@ -1,0 +1,136 @@
+\doxysection{Electrique Class Reference}
+\hypertarget{classElectrique}{}\label{classElectrique}\index{Electrique@{Electrique}}
+
+
+Représente un moteur électrique.  
+
+
+
+
+{\ttfamily \#include $<$Electrique.\+h$>$}
+
+
+
+Inheritance diagram for Electrique\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=145pt]{classElectrique__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Electrique\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=145pt]{classElectrique__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classElectrique_ab7351c73099adb8cef077aa48443a6d5}{Electrique}} (int \mbox{\hyperlink{classMoteur_ac4353cfae7a42d8ee2d413ca2a746fe1}{puissance}}=0, float tension\+Max=0.\+0f)
+\begin{DoxyCompactList}\small\item\em Constructeur de la classe \doxylink{classElectrique}{Electrique}. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classElectrique_ac47ed9a7d564fe01e0fb93e3619b16ef}{get\+Tension\+Max}} () const
+\begin{DoxyCompactList}\small\item\em Obtenir la tension maximale. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classElectrique_ab8f28d57f2a35062786c69110825aac8}{set\+Tension\+Max}} (float tension)
+\begin{DoxyCompactList}\small\item\em Modifier la tension maximale. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classElectrique_a134ac714319a5808aa24aedd9524baf2}{to\+String}} () const override
+\begin{DoxyCompactList}\small\item\em Description textuelle du moteur électrique. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classMoteur}{Moteur}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classMoteur_a018db367feb1c4bbcc0dc3ce034deed6}{Moteur}} (int p=0)
+\begin{DoxyCompactList}\small\item\em Constructeur de la classe \doxylink{classMoteur}{Moteur}. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{classMoteur_abd73219b2994b455f2e3304d4d879f36}{\texorpdfstring{$\sim$}{\string~}\+Moteur}} ()
+\item 
+int \mbox{\hyperlink{classMoteur_a9cb86b20d29c2251f203baca3240c2b2}{get\+Puissance}} () const
+\begin{DoxyCompactList}\small\item\em Obtenir la puissance du moteur. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMoteur_a72de26805438e2d19b2bf1e3ab9aef98}{set\+Puissance}} (int \mbox{\hyperlink{classMoteur_ac4353cfae7a42d8ee2d413ca2a746fe1}{puissance}})
+\begin{DoxyCompactList}\small\item\em Modifier la puissance du moteur. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{classMoteur}{Moteur}}}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classMoteur_ac4353cfae7a42d8ee2d413ca2a746fe1}{puissance}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Représente un moteur électrique. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classElectrique_ab7351c73099adb8cef077aa48443a6d5}\label{classElectrique_ab7351c73099adb8cef077aa48443a6d5} 
+\index{Electrique@{Electrique}!Electrique@{Electrique}}
+\index{Electrique@{Electrique}!Electrique@{Electrique}}
+\doxysubsubsection{\texorpdfstring{Electrique()}{Electrique()}}
+{\footnotesize\ttfamily Electrique\+::\+Electrique (\begin{DoxyParamCaption}\item[{int}]{puissance = {\ttfamily 0},  }\item[{float}]{tension\+Max = {\ttfamily 0.0f} }\end{DoxyParamCaption})}
+
+
+
+Constructeur de la classe \doxylink{classElectrique}{Electrique}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em puissance} & Puissance du moteur en CV (par défaut 0). \\
+\hline
+{\em tension\+Max} & Tension maximale en Volts (par défaut 0.\+0f). \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classElectrique_ac47ed9a7d564fe01e0fb93e3619b16ef}\label{classElectrique_ac47ed9a7d564fe01e0fb93e3619b16ef} 
+\index{Electrique@{Electrique}!getTensionMax@{getTensionMax}}
+\index{getTensionMax@{getTensionMax}!Electrique@{Electrique}}
+\doxysubsubsection{\texorpdfstring{getTensionMax()}{getTensionMax()}}
+{\footnotesize\ttfamily float Electrique\+::get\+Tension\+Max (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Obtenir la tension maximale. 
+
+\begin{DoxyReturn}{Returns}
+La tension en Volts. 
+\end{DoxyReturn}
+\Hypertarget{classElectrique_ab8f28d57f2a35062786c69110825aac8}\label{classElectrique_ab8f28d57f2a35062786c69110825aac8} 
+\index{Electrique@{Electrique}!setTensionMax@{setTensionMax}}
+\index{setTensionMax@{setTensionMax}!Electrique@{Electrique}}
+\doxysubsubsection{\texorpdfstring{setTensionMax()}{setTensionMax()}}
+{\footnotesize\ttfamily void Electrique\+::set\+Tension\+Max (\begin{DoxyParamCaption}\item[{float}]{tension }\end{DoxyParamCaption})}
+
+
+
+Modifier la tension maximale. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tension} & Nouvelle tension en Volts. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classElectrique_a134ac714319a5808aa24aedd9524baf2}\label{classElectrique_a134ac714319a5808aa24aedd9524baf2} 
+\index{Electrique@{Electrique}!toString@{toString}}
+\index{toString@{toString}!Electrique@{Electrique}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily std\+::string Electrique\+::to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Description textuelle du moteur électrique. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string Chaîne formatée avec puissance et tension max. 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classMoteur_a5b964513a6de98e1221d2ce54d07ba2b}{Moteur}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Electrique_8h}{Electrique.\+h}}\item 
+\mbox{\hyperlink{Electrique_8cpp}{Electrique.\+cpp}}\end{DoxyCompactItemize}

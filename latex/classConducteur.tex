@@ -1,0 +1,116 @@
+\doxysection{Conducteur Class Reference}
+\hypertarget{classConducteur}{}\label{classConducteur}\index{Conducteur@{Conducteur}}
+
+
+Représente un conducteur pouvant posséder plusieurs motos (Agrégation).  
+
+
+
+
+{\ttfamily \#include $<$Conducteur.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classConducteur_a60464d08b05a65077e7c61be0f3d1281}{Conducteur}} (std\+::string nom, std\+::string prenom, int annee\+Naissance)
+\begin{DoxyCompactList}\small\item\em Constructeur de \doxylink{classConducteur}{Conducteur}. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classConducteur_a7f9e72a915eff7a275fcbecf39a9ba84}{get\+Nom}} () const
+\item 
+std\+::string \mbox{\hyperlink{classConducteur_a341ca7dcf10d583373b439cbfd5e6a69}{get\+Prenom}} () const
+\item 
+std\+::string \mbox{\hyperlink{classConducteur_a393b6f51e5387f3e8483c7eb615498a7}{get\+Annee\+Naissance}} () const
+\item 
+void \mbox{\hyperlink{classConducteur_ad8b1fdb9c866cd4e5b89d43ef1315797}{add\+Moto}} (\mbox{\hyperlink{classMoto}{Moto}} \texorpdfstring{$\ast$}{*}new\+Moto)
+\begin{DoxyCompactList}\small\item\em Ajoute une moto au garage du conducteur. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classConducteur_a0925f9794c28c7c206294f703a6e8745}{rm\+Moto}} (\mbox{\hyperlink{classMoto}{Moto}} \texorpdfstring{$\ast$}{*}rm\+Moto)
+\begin{DoxyCompactList}\small\item\em Retire une moto du garage du conducteur. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classConducteur_a927ad1c00e5ef85152d0e116e79d8505}{to\+String}} () const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Représente un conducteur pouvant posséder plusieurs motos (Agrégation). 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classConducteur_a60464d08b05a65077e7c61be0f3d1281}\label{classConducteur_a60464d08b05a65077e7c61be0f3d1281} 
+\index{Conducteur@{Conducteur}!Conducteur@{Conducteur}}
+\index{Conducteur@{Conducteur}!Conducteur@{Conducteur}}
+\doxysubsubsection{\texorpdfstring{Conducteur()}{Conducteur()}}
+{\footnotesize\ttfamily Conducteur\+::\+Conducteur (\begin{DoxyParamCaption}\item[{std\+::string}]{nom,  }\item[{std\+::string}]{prenom,  }\item[{int}]{annee\+Naissance }\end{DoxyParamCaption})}
+
+
+
+Constructeur de \doxylink{classConducteur}{Conducteur}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em nom} & Nom de famille. \\
+\hline
+{\em prenom} & Prénom. \\
+\hline
+{\em annee\+Naissance} & Année de naissance. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classConducteur_ad8b1fdb9c866cd4e5b89d43ef1315797}\label{classConducteur_ad8b1fdb9c866cd4e5b89d43ef1315797} 
+\index{Conducteur@{Conducteur}!addMoto@{addMoto}}
+\index{addMoto@{addMoto}!Conducteur@{Conducteur}}
+\doxysubsubsection{\texorpdfstring{addMoto()}{addMoto()}}
+{\footnotesize\ttfamily void Conducteur\+::add\+Moto (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classMoto}{Moto}} \texorpdfstring{$\ast$}{*}}]{new\+Moto }\end{DoxyParamCaption})}
+
+
+
+Ajoute une moto au garage du conducteur. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Moto} & Pointeur vers la moto à ajouter. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classConducteur_a393b6f51e5387f3e8483c7eb615498a7}\label{classConducteur_a393b6f51e5387f3e8483c7eb615498a7} 
+\index{Conducteur@{Conducteur}!getAnneeNaissance@{getAnneeNaissance}}
+\index{getAnneeNaissance@{getAnneeNaissance}!Conducteur@{Conducteur}}
+\doxysubsubsection{\texorpdfstring{getAnneeNaissance()}{getAnneeNaissance()}}
+{\footnotesize\ttfamily std\+::string Conducteur\+::get\+Annee\+Naissance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\Hypertarget{classConducteur_a7f9e72a915eff7a275fcbecf39a9ba84}\label{classConducteur_a7f9e72a915eff7a275fcbecf39a9ba84} 
+\index{Conducteur@{Conducteur}!getNom@{getNom}}
+\index{getNom@{getNom}!Conducteur@{Conducteur}}
+\doxysubsubsection{\texorpdfstring{getNom()}{getNom()}}
+{\footnotesize\ttfamily std\+::string Conducteur\+::get\+Nom (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\Hypertarget{classConducteur_a341ca7dcf10d583373b439cbfd5e6a69}\label{classConducteur_a341ca7dcf10d583373b439cbfd5e6a69} 
+\index{Conducteur@{Conducteur}!getPrenom@{getPrenom}}
+\index{getPrenom@{getPrenom}!Conducteur@{Conducteur}}
+\doxysubsubsection{\texorpdfstring{getPrenom()}{getPrenom()}}
+{\footnotesize\ttfamily std\+::string Conducteur\+::get\+Prenom (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\Hypertarget{classConducteur_a0925f9794c28c7c206294f703a6e8745}\label{classConducteur_a0925f9794c28c7c206294f703a6e8745} 
+\index{Conducteur@{Conducteur}!rmMoto@{rmMoto}}
+\index{rmMoto@{rmMoto}!Conducteur@{Conducteur}}
+\doxysubsubsection{\texorpdfstring{rmMoto()}{rmMoto()}}
+{\footnotesize\ttfamily void Conducteur\+::rm\+Moto (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classMoto}{Moto}} \texorpdfstring{$\ast$}{*}}]{rm\+Moto }\end{DoxyParamCaption})}
+
+
+
+Retire une moto du garage du conducteur. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rm\+Moto} & Pointeur vers la moto à retirer. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classConducteur_a927ad1c00e5ef85152d0e116e79d8505}\label{classConducteur_a927ad1c00e5ef85152d0e116e79d8505} 
+\index{Conducteur@{Conducteur}!toString@{toString}}
+\index{toString@{toString}!Conducteur@{Conducteur}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily std\+::string Conducteur\+::to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Conducteur_8h}{Conducteur.\+h}}\item 
+\mbox{\hyperlink{Conducteur_8cpp}{Conducteur.\+cpp}}\end{DoxyCompactItemize}

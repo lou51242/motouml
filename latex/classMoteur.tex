@@ -1,0 +1,129 @@
+\doxysection{Moteur Class Reference}
+\hypertarget{classMoteur}{}\label{classMoteur}\index{Moteur@{Moteur}}
+
+
+Classe de base représentant un moteur générique.  
+
+
+
+
+{\ttfamily \#include $<$Moteur.\+h$>$}
+
+
+
+Inheritance diagram for Moteur\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=232pt]{classMoteur__inherit__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classMoteur_a018db367feb1c4bbcc0dc3ce034deed6}{Moteur}} (int p=0)
+\begin{DoxyCompactList}\small\item\em Constructeur de la classe \doxylink{classMoteur}{Moteur}. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{classMoteur_abd73219b2994b455f2e3304d4d879f36}{\texorpdfstring{$\sim$}{\string~}\+Moteur}} ()
+\item 
+int \mbox{\hyperlink{classMoteur_a9cb86b20d29c2251f203baca3240c2b2}{get\+Puissance}} () const
+\begin{DoxyCompactList}\small\item\em Obtenir la puissance du moteur. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMoteur_a72de26805438e2d19b2bf1e3ab9aef98}{set\+Puissance}} (int \mbox{\hyperlink{classMoteur_ac4353cfae7a42d8ee2d413ca2a746fe1}{puissance}})
+\begin{DoxyCompactList}\small\item\em Modifier la puissance du moteur. \end{DoxyCompactList}\item 
+virtual std\+::string \mbox{\hyperlink{classMoteur_a5b964513a6de98e1221d2ce54d07ba2b}{to\+String}} () const
+\begin{DoxyCompactList}\small\item\em Retourne une description textuelle du moteur. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classMoteur_ac4353cfae7a42d8ee2d413ca2a746fe1}{puissance}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Classe de base représentant un moteur générique. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classMoteur_a018db367feb1c4bbcc0dc3ce034deed6}\label{classMoteur_a018db367feb1c4bbcc0dc3ce034deed6} 
+\index{Moteur@{Moteur}!Moteur@{Moteur}}
+\index{Moteur@{Moteur}!Moteur@{Moteur}}
+\doxysubsubsection{\texorpdfstring{Moteur()}{Moteur()}}
+{\footnotesize\ttfamily Moteur\+::\+Moteur (\begin{DoxyParamCaption}\item[{int}]{p = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+
+
+Constructeur de la classe \doxylink{classMoteur}{Moteur}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & Puissance initiale (par défaut 0). \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMoteur_abd73219b2994b455f2e3304d4d879f36}\label{classMoteur_abd73219b2994b455f2e3304d4d879f36} 
+\index{Moteur@{Moteur}!````~Moteur@{\texorpdfstring{$\sim$}{\string~}Moteur}}
+\index{````~Moteur@{\texorpdfstring{$\sim$}{\string~}Moteur}!Moteur@{Moteur}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Moteur()}{\string~Moteur()}}
+{\footnotesize\ttfamily Moteur\+::\texorpdfstring{$\sim$}{\string~}\+Moteur (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classMoteur_a9cb86b20d29c2251f203baca3240c2b2}\label{classMoteur_a9cb86b20d29c2251f203baca3240c2b2} 
+\index{Moteur@{Moteur}!getPuissance@{getPuissance}}
+\index{getPuissance@{getPuissance}!Moteur@{Moteur}}
+\doxysubsubsection{\texorpdfstring{getPuissance()}{getPuissance()}}
+{\footnotesize\ttfamily int Moteur\+::get\+Puissance (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Obtenir la puissance du moteur. 
+
+\begin{DoxyReturn}{Returns}
+La puissance en CV. 
+\end{DoxyReturn}
+\Hypertarget{classMoteur_a72de26805438e2d19b2bf1e3ab9aef98}\label{classMoteur_a72de26805438e2d19b2bf1e3ab9aef98} 
+\index{Moteur@{Moteur}!setPuissance@{setPuissance}}
+\index{setPuissance@{setPuissance}!Moteur@{Moteur}}
+\doxysubsubsection{\texorpdfstring{setPuissance()}{setPuissance()}}
+{\footnotesize\ttfamily void Moteur\+::set\+Puissance (\begin{DoxyParamCaption}\item[{int}]{puissance }\end{DoxyParamCaption})}
+
+
+
+Modifier la puissance du moteur. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em puissance} & Nouvelle puissance. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMoteur_a5b964513a6de98e1221d2ce54d07ba2b}\label{classMoteur_a5b964513a6de98e1221d2ce54d07ba2b} 
+\index{Moteur@{Moteur}!toString@{toString}}
+\index{toString@{toString}!Moteur@{Moteur}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily std\+::string Moteur\+::to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Retourne une description textuelle du moteur. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string Chaîne contenant les détails. 
+\end{DoxyReturn}
+
+
+Reimplemented in \mbox{\hyperlink{classElectrique_a134ac714319a5808aa24aedd9524baf2}{Electrique}}, and \mbox{\hyperlink{classThermique_a6cadd2c4753c61ea157d740074af2cab}{Thermique}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\Hypertarget{classMoteur_ac4353cfae7a42d8ee2d413ca2a746fe1}\label{classMoteur_ac4353cfae7a42d8ee2d413ca2a746fe1} 
+\index{Moteur@{Moteur}!puissance@{puissance}}
+\index{puissance@{puissance}!Moteur@{Moteur}}
+\doxysubsubsection{\texorpdfstring{puissance}{puissance}}
+{\footnotesize\ttfamily int Moteur\+::puissance\hspace{0.3cm}{\ttfamily [protected]}}
+
+Puissance du moteur en CV 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Moteur_8h}{Moteur.\+h}}\item 
+\mbox{\hyperlink{Moteur_8cpp}{Moteur.\+cpp}}\end{DoxyCompactItemize}

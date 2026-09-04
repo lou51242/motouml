@@ -1,0 +1,32 @@
+\doxysection{Moto.\+h}
+\hypertarget{Moto_8h_source}{}\label{Moto_8h_source}\mbox{\hyperlink{Moto_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#ifndef\ MOTO\_H}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#define\ MOTO\_H}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{Moteur_8h}{Moteur.h}}"{}}}
+\DoxyCodeLine{00011\ }
+\DoxyCodeLine{00016\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classMoto}{Moto}}\ \{}
+\DoxyCodeLine{00017\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00018\ \ \ \ \ \textcolor{keywordtype}{int}\ poids;}
+\DoxyCodeLine{00019\ \ \ \ \ std::string\ couleur;}
+\DoxyCodeLine{00020\ \ \ \ \ std::string\ nom;}
+\DoxyCodeLine{00021\ \ \ \ \ \mbox{\hyperlink{classMoteur}{Moteur}}*\ moteur;\ }
+\DoxyCodeLine{00023\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00031\ \ \ \ \ \mbox{\hyperlink{classMoto}{Moto}}(\mbox{\hyperlink{classMoteur}{Moteur}}*\ moteur,\ std::string\ couleur,\ std::string\ nom\ =\ \textcolor{stringliteral}{"{}"{}},\ \textcolor{keywordtype}{int}\ poids\ =\ 0);}
+\DoxyCodeLine{00032\ }
+\DoxyCodeLine{00033\ \ \ \ \ \mbox{\hyperlink{classMoto_a1f4624ebdd55bdc4a7ec32f70ab9f4ca}{\string~Moto}}();}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00035\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classMoto_a282d5b294bd20df17cb87ecaf108ac0d}{getPoids}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00036\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classMoto_aefeab9d53edb251b3ef8edc7c11f8948}{setPoids}}(\textcolor{keywordtype}{int}\ poids);}
+\DoxyCodeLine{00037\ \ \ \ \ std::string\ \mbox{\hyperlink{classMoto_ab36dc952699b9da6a8da2ead7beba9cd}{getCouleur}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00038\ \ \ \ \ \mbox{\hyperlink{classMoteur}{Moteur}}*\ \mbox{\hyperlink{classMoto_a7adf01deb89985510cc009d74d84663b}{getMoteur}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00039\ \ \ \ \ \textcolor{keywordtype}{float}\ \mbox{\hyperlink{classMoto_ab36e475fe36a58c71641d1ee8d825ca7}{getAcceleration}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00040\ \ \ \ \ std::string\ \mbox{\hyperlink{classMoto_a53ee0846b652475adbea9f3692bd1173}{toString}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00041\ \};}
+\DoxyCodeLine{00042\ }
+\DoxyCodeLine{00043\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

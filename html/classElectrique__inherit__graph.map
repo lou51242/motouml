@@ -1,0 +1,5 @@
+<map id="Electrique" name="Electrique">
+<area shape="rect" id="Node000001" title="Représente un moteur électrique." alt="" coords="5,79,92,104"/>
+<area shape="rect" id="Node000002" href="$classMoteur.html" title="Classe de base représentant un moteur générique." alt="" coords="15,5,83,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="51,44,51,79,46,79,46,44"/>
+</map>

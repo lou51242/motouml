@@ -1,0 +1,108 @@
+\doxysection{Moto Class Reference}
+\hypertarget{classMoto}{}\label{classMoto}\index{Moto@{Moto}}
+
+
+Représente une moto possédant un \doxylink{classMoteur}{Moteur} (Composition).  
+
+
+
+
+{\ttfamily \#include $<$Moto.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classMoto_a2830803761233a4c470a2cb0fdf8f577}{Moto}} (\mbox{\hyperlink{classMoteur}{Moteur}} \texorpdfstring{$\ast$}{*}moteur, std\+::string couleur, std\+::string nom="{}"{}, int poids=0)
+\begin{DoxyCompactList}\small\item\em Constructeur de \doxylink{classMoto}{Moto}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classMoto_a1f4624ebdd55bdc4a7ec32f70ab9f4ca}{\texorpdfstring{$\sim$}{\string~}\+Moto}} ()
+\item 
+int \mbox{\hyperlink{classMoto_a282d5b294bd20df17cb87ecaf108ac0d}{get\+Poids}} () const
+\item 
+void \mbox{\hyperlink{classMoto_aefeab9d53edb251b3ef8edc7c11f8948}{set\+Poids}} (int poids)
+\item 
+std\+::string \mbox{\hyperlink{classMoto_ab36dc952699b9da6a8da2ead7beba9cd}{get\+Couleur}} () const
+\item 
+\mbox{\hyperlink{classMoteur}{Moteur}} \texorpdfstring{$\ast$}{*} \mbox{\hyperlink{classMoto_a7adf01deb89985510cc009d74d84663b}{get\+Moteur}} () const
+\item 
+float \mbox{\hyperlink{classMoto_ab36e475fe36a58c71641d1ee8d825ca7}{get\+Acceleration}} () const
+\item 
+std\+::string \mbox{\hyperlink{classMoto_a53ee0846b652475adbea9f3692bd1173}{to\+String}} () const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Représente une moto possédant un \doxylink{classMoteur}{Moteur} (Composition). 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classMoto_a2830803761233a4c470a2cb0fdf8f577}\label{classMoto_a2830803761233a4c470a2cb0fdf8f577} 
+\index{Moto@{Moto}!Moto@{Moto}}
+\index{Moto@{Moto}!Moto@{Moto}}
+\doxysubsubsection{\texorpdfstring{Moto()}{Moto()}}
+{\footnotesize\ttfamily Moto\+::\+Moto (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classMoteur}{Moteur}} \texorpdfstring{$\ast$}{*}}]{moteur,  }\item[{std\+::string}]{couleur,  }\item[{std\+::string}]{nom = {\ttfamily "{}"{}},  }\item[{int}]{poids = {\ttfamily 0} }\end{DoxyParamCaption})}
+
+
+
+Constructeur de \doxylink{classMoto}{Moto}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em moteur} & Pointeur vers un objet \doxylink{classMoteur}{Moteur}. \\
+\hline
+{\em couleur} & Couleur de la moto. \\
+\hline
+{\em nom} & Nom/\+Modèle de la moto. \\
+\hline
+{\em poids} & Poids en kg. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classMoto_a1f4624ebdd55bdc4a7ec32f70ab9f4ca}\label{classMoto_a1f4624ebdd55bdc4a7ec32f70ab9f4ca} 
+\index{Moto@{Moto}!````~Moto@{\texorpdfstring{$\sim$}{\string~}Moto}}
+\index{````~Moto@{\texorpdfstring{$\sim$}{\string~}Moto}!Moto@{Moto}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}Moto()}{\string~Moto()}}
+{\footnotesize\ttfamily Moto\+::\texorpdfstring{$\sim$}{\string~}\+Moto (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classMoto_ab36e475fe36a58c71641d1ee8d825ca7}\label{classMoto_ab36e475fe36a58c71641d1ee8d825ca7} 
+\index{Moto@{Moto}!getAcceleration@{getAcceleration}}
+\index{getAcceleration@{getAcceleration}!Moto@{Moto}}
+\doxysubsubsection{\texorpdfstring{getAcceleration()}{getAcceleration()}}
+{\footnotesize\ttfamily float Moto\+::get\+Acceleration (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\Hypertarget{classMoto_ab36dc952699b9da6a8da2ead7beba9cd}\label{classMoto_ab36dc952699b9da6a8da2ead7beba9cd} 
+\index{Moto@{Moto}!getCouleur@{getCouleur}}
+\index{getCouleur@{getCouleur}!Moto@{Moto}}
+\doxysubsubsection{\texorpdfstring{getCouleur()}{getCouleur()}}
+{\footnotesize\ttfamily std\+::string Moto\+::get\+Couleur (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\Hypertarget{classMoto_a7adf01deb89985510cc009d74d84663b}\label{classMoto_a7adf01deb89985510cc009d74d84663b} 
+\index{Moto@{Moto}!getMoteur@{getMoteur}}
+\index{getMoteur@{getMoteur}!Moto@{Moto}}
+\doxysubsubsection{\texorpdfstring{getMoteur()}{getMoteur()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{classMoteur}{Moteur}} \texorpdfstring{$\ast$}{*} Moto\+::get\+Moteur (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\Hypertarget{classMoto_a282d5b294bd20df17cb87ecaf108ac0d}\label{classMoto_a282d5b294bd20df17cb87ecaf108ac0d} 
+\index{Moto@{Moto}!getPoids@{getPoids}}
+\index{getPoids@{getPoids}!Moto@{Moto}}
+\doxysubsubsection{\texorpdfstring{getPoids()}{getPoids()}}
+{\footnotesize\ttfamily int Moto\+::get\+Poids (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+\Hypertarget{classMoto_aefeab9d53edb251b3ef8edc7c11f8948}\label{classMoto_aefeab9d53edb251b3ef8edc7c11f8948} 
+\index{Moto@{Moto}!setPoids@{setPoids}}
+\index{setPoids@{setPoids}!Moto@{Moto}}
+\doxysubsubsection{\texorpdfstring{setPoids()}{setPoids()}}
+{\footnotesize\ttfamily void Moto\+::set\+Poids (\begin{DoxyParamCaption}\item[{int}]{poids }\end{DoxyParamCaption})}
+
+\Hypertarget{classMoto_a53ee0846b652475adbea9f3692bd1173}\label{classMoto_a53ee0846b652475adbea9f3692bd1173} 
+\index{Moto@{Moto}!toString@{toString}}
+\index{toString@{toString}!Moto@{Moto}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily std\+::string Moto\+::to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Moto_8h}{Moto.\+h}}\item 
+\mbox{\hyperlink{Moto_8cpp}{Moto.\+cpp}}\end{DoxyCompactItemize}

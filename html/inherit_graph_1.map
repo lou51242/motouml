@@ -1,0 +1,7 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="Node000000" href="$classMoteur.html" title="Classe de base représentant un moteur générique." alt="" coords="5,31,73,56"/>
+<area shape="rect" id="Node000001" href="$classElectrique.html" title="Représente un moteur électrique." alt="" coords="124,5,211,31"/>
+<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="86,31,123,24,124,29,87,37"/>
+<area shape="rect" id="Node000002" href="$classThermique.html" title="Représente un moteur à combustion thermique." alt="" coords="121,55,213,80"/>
+<area shape="poly" id="edge2_Node000000_Node000002" title=" " alt="" coords="87,50,122,56,121,61,86,55"/>
+</map>

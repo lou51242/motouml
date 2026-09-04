@@ -1,0 +1,8 @@
+<map id="Moto.h" name="Moto.h">
+<area shape="rect" id="Node000001" title="Déclaration de la classe Moto." alt="" coords="5,5,72,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="9,152,68,177"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="37,31,30,64,28,104,34,138,29,139,23,104,25,63,32,30"/>
+<area shape="rect" id="Node000003" href="$Moteur_8h.html" title="Déclaration de la classe Moteur." alt="" coords="38,79,117,104"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="47,30,67,65,62,68,43,32"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="73,106,54,141,49,139,69,103"/>
+</map>

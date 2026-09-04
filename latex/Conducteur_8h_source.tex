@@ -1,0 +1,34 @@
+\doxysection{Conducteur.\+h}
+\hypertarget{Conducteur_8h_source}{}\label{Conducteur_8h_source}\mbox{\hyperlink{Conducteur_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ }
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#ifndef\ CONDUCTEUR\_H}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#define\ CONDUCTEUR\_H}}
+\DoxyCodeLine{00008\ }
+\DoxyCodeLine{00009\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00010\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00011\ \textcolor{preprocessor}{\#include\ "{}\mbox{\hyperlink{Moto_8h}{Moto.h}}"{}}}
+\DoxyCodeLine{00012\ }
+\DoxyCodeLine{00017\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classConducteur}{Conducteur}}\ \{}
+\DoxyCodeLine{00018\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00019\ \ \ \ \ std::string\ nom;}
+\DoxyCodeLine{00020\ \ \ \ \ std::string\ prenom;}
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{keywordtype}{int}\ anneeNaissance;}
+\DoxyCodeLine{00022\ \ \ \ \ std::vector<Moto*>\ mesMotos;\ }
+\DoxyCodeLine{00024\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00031\ \ \ \ \ \mbox{\hyperlink{classConducteur}{Conducteur}}(std::string\ nom,\ std::string\ prenom,\ \textcolor{keywordtype}{int}\ anneeNaissance);}
+\DoxyCodeLine{00032\ }
+\DoxyCodeLine{00033\ \ \ \ \ std::string\ \mbox{\hyperlink{classConducteur_a7f9e72a915eff7a275fcbecf39a9ba84}{getNom}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00034\ \ \ \ \ std::string\ \mbox{\hyperlink{classConducteur_a341ca7dcf10d583373b439cbfd5e6a69}{getPrenom}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00035\ \ \ \ \ std::string\ \mbox{\hyperlink{classConducteur_a393b6f51e5387f3e8483c7eb615498a7}{getAnneeNaissance}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00036\ }
+\DoxyCodeLine{00041\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classConducteur_ad8b1fdb9c866cd4e5b89d43ef1315797}{addMoto}}(\mbox{\hyperlink{classMoto}{Moto}}*\ newMoto);}
+\DoxyCodeLine{00042\ }
+\DoxyCodeLine{00047\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classConducteur_a0925f9794c28c7c206294f703a6e8745}{rmMoto}}(\mbox{\hyperlink{classMoto}{Moto}}*\ \mbox{\hyperlink{classConducteur_a0925f9794c28c7c206294f703a6e8745}{rmMoto}});}
+\DoxyCodeLine{00048\ }
+\DoxyCodeLine{00049\ \ \ \ \ std::string\ \mbox{\hyperlink{classConducteur_a927ad1c00e5ef85152d0e116e79d8505}{toString}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00050\ \};}
+\DoxyCodeLine{00051\ }
+\DoxyCodeLine{00052\ \textcolor{preprocessor}{\#endif}}
+
+\end{DoxyCode}

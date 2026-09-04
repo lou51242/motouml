@@ -1,0 +1,136 @@
+\doxysection{Thermique Class Reference}
+\hypertarget{classThermique}{}\label{classThermique}\index{Thermique@{Thermique}}
+
+
+Représente un moteur à combustion thermique.  
+
+
+
+
+{\ttfamily \#include $<$Thermique.\+h$>$}
+
+
+
+Inheritance diagram for Thermique\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=149pt]{classThermique__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Thermique\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=149pt]{classThermique__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classThermique_a73c25cf4329c5bf759df4f93f1d22b6c}{Thermique}} (int \mbox{\hyperlink{classMoteur_ac4353cfae7a42d8ee2d413ca2a746fe1}{puissance}}=0, float cylindree=0.\+0f)
+\begin{DoxyCompactList}\small\item\em Constructeur de la classe \doxylink{classThermique}{Thermique}. \end{DoxyCompactList}\item 
+float \mbox{\hyperlink{classThermique_a5fecafc8831493476de6ddace6231dc5}{get\+Cylindree}} () const
+\begin{DoxyCompactList}\small\item\em Obtenir la cylindrée du moteur. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classThermique_a25a73d8c8cee67a9324575ea730eb27b}{set\+Cylindree}} (float new\+Cylindree)
+\begin{DoxyCompactList}\small\item\em Modifier la cylindrée du moteur. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classThermique_a6cadd2c4753c61ea157d740074af2cab}{to\+String}} () const override
+\begin{DoxyCompactList}\small\item\em Description textuelle du moteur thermique. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classMoteur}{Moteur}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classMoteur_a018db367feb1c4bbcc0dc3ce034deed6}{Moteur}} (int p=0)
+\begin{DoxyCompactList}\small\item\em Constructeur de la classe \doxylink{classMoteur}{Moteur}. \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{classMoteur_abd73219b2994b455f2e3304d4d879f36}{\texorpdfstring{$\sim$}{\string~}\+Moteur}} ()
+\item 
+int \mbox{\hyperlink{classMoteur_a9cb86b20d29c2251f203baca3240c2b2}{get\+Puissance}} () const
+\begin{DoxyCompactList}\small\item\em Obtenir la puissance du moteur. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classMoteur_a72de26805438e2d19b2bf1e3ab9aef98}{set\+Puissance}} (int \mbox{\hyperlink{classMoteur_ac4353cfae7a42d8ee2d413ca2a746fe1}{puissance}})
+\begin{DoxyCompactList}\small\item\em Modifier la puissance du moteur. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{classMoteur}{Moteur}}}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{classMoteur_ac4353cfae7a42d8ee2d413ca2a746fe1}{puissance}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Représente un moteur à combustion thermique. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classThermique_a73c25cf4329c5bf759df4f93f1d22b6c}\label{classThermique_a73c25cf4329c5bf759df4f93f1d22b6c} 
+\index{Thermique@{Thermique}!Thermique@{Thermique}}
+\index{Thermique@{Thermique}!Thermique@{Thermique}}
+\doxysubsubsection{\texorpdfstring{Thermique()}{Thermique()}}
+{\footnotesize\ttfamily Thermique\+::\+Thermique (\begin{DoxyParamCaption}\item[{int}]{puissance = {\ttfamily 0},  }\item[{float}]{cylindree = {\ttfamily 0.0f} }\end{DoxyParamCaption})}
+
+
+
+Constructeur de la classe \doxylink{classThermique}{Thermique}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em puissance} & Puissance du moteur en CV (par défaut 0). \\
+\hline
+{\em cylindree} & Cylindrée en cc (par défaut 0.\+0f). \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classThermique_a5fecafc8831493476de6ddace6231dc5}\label{classThermique_a5fecafc8831493476de6ddace6231dc5} 
+\index{Thermique@{Thermique}!getCylindree@{getCylindree}}
+\index{getCylindree@{getCylindree}!Thermique@{Thermique}}
+\doxysubsubsection{\texorpdfstring{getCylindree()}{getCylindree()}}
+{\footnotesize\ttfamily float Thermique\+::get\+Cylindree (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Obtenir la cylindrée du moteur. 
+
+\begin{DoxyReturn}{Returns}
+La cylindrée en cc. 
+\end{DoxyReturn}
+\Hypertarget{classThermique_a25a73d8c8cee67a9324575ea730eb27b}\label{classThermique_a25a73d8c8cee67a9324575ea730eb27b} 
+\index{Thermique@{Thermique}!setCylindree@{setCylindree}}
+\index{setCylindree@{setCylindree}!Thermique@{Thermique}}
+\doxysubsubsection{\texorpdfstring{setCylindree()}{setCylindree()}}
+{\footnotesize\ttfamily void Thermique\+::set\+Cylindree (\begin{DoxyParamCaption}\item[{float}]{new\+Cylindree }\end{DoxyParamCaption})}
+
+
+
+Modifier la cylindrée du moteur. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em new\+Cylindree} & Nouvelle cylindrée. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classThermique_a6cadd2c4753c61ea157d740074af2cab}\label{classThermique_a6cadd2c4753c61ea157d740074af2cab} 
+\index{Thermique@{Thermique}!toString@{toString}}
+\index{toString@{toString}!Thermique@{Thermique}}
+\doxysubsubsection{\texorpdfstring{toString()}{toString()}}
+{\footnotesize\ttfamily std\+::string Thermique\+::to\+String (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Description textuelle du moteur thermique. 
+
+\begin{DoxyReturn}{Returns}
+std\+::string Chaîne formatée avec puissance et cylindrée. 
+\end{DoxyReturn}
+
+
+Reimplemented from \mbox{\hyperlink{classMoteur_a5b964513a6de98e1221d2ce54d07ba2b}{Moteur}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{Thermique_8h}{Thermique.\+h}}\item 
+\mbox{\hyperlink{Thermique_8cpp}{Thermique.\+cpp}}\end{DoxyCompactItemize}
